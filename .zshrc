@@ -36,7 +36,7 @@ precmd () { vcs_info }
 
 # プロンプトカスタマイズ
 PROMPT='
-[%B%F{red}%n@%m%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
+[%B%F{red}`git config user.email`%f%b:%F{green}%~%f]%F{cyan}$vcs_info_msg_0_%f
 %F{yellow}$%f '
 
 # https://qiita.com/kenta4327/items/8faaa83f6a5bf595a4bc
